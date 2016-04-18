@@ -10,6 +10,11 @@ body {
   }
 }
 
+.container {
+    padding-left: 0;
+    padding-right: 0; 
+}
+
 #components {
   min-height: 500px;
 }
@@ -65,6 +70,14 @@ textarea {
   overflow: hidden;
 }
 
+ul#formtabs.nav.nav-tabs {
+  margin-bottom: 20px;
+}
+
+#temp {
+  width: 550px;
+}
+
 #render{
   min-height: 500px;
   font-family: monospace;
@@ -73,7 +86,7 @@ textarea {
 /* Popovers now are appended to their parent rather
 than to the body/main document as they once were.
 We need to over-ride some inherited stuff.. */
-form .popover .controls {
+form .popover .form-group {
   margin-left: 0;
 }
 
@@ -82,7 +95,13 @@ form .popover .control-label {
 }
 
 form .popover form {
-  width: 224px;
+  width: 260px;
+  padding-right: 30px;
+}
+
+form .popover form .checkbox input[type=checkbox] {
+  position: relative;
+  margin-left: 0;
 }
 
 .popover-content form .btn{
