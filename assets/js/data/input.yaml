@@ -21,22 +21,6 @@
       label  : Required
       type   : checkbox
       value  : false
-#    inputsize:
-#      label  : Input Size
-#      type   : select
-#      value  : 
-#        -
-#          value    : input-sm
-#          label    : Small
-#          selected : false
-#        -
-#          value    : 
-#          label    : Default
-#          selected : true
-#        -
-#          value    : input-lg
-#          label    : Large
-#          selected : false
 -
   title  : Password Input
   fields :

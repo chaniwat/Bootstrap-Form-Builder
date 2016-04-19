@@ -4,7 +4,7 @@
   <div class="col-md-7">
     <div class="input-group">
       <span class="input-group-addon"><%- append %></span>
-      <input class="form-control" id="<%- id %>" name="<%- id %>" placeholder="<%- placeholder %>" type="text"<% if(required) {%> required <% } %> />
+      <input class="form-control" id="<%- id %>" name="<%- id %>" placeholder="<%- placeholder %>" type="text"<% if(required) {%> data-empty="false" <% } %> />
     </div>
     <% if (helptext.length > 0) { %><p class="help-block"><%- helptext %></p><% } %>
   </div>

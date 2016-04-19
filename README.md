@@ -1,6 +1,8 @@
 #Bootstrap Form Builder
 
-## Warning: Currently using Bootstrap `v. 2.3.1` :dolphin:  (Not Bootstrap 3 ready.)
+## Change to Bootstrap 3 by @meranotemajimo
+
+forked from [minikomi/Bootstrap-Form-Builder](https://github.com/minikomi/Bootstrap-Form-Builder) (Thanks to minikomi for build this awesome tool :smiley:)
 
 ##What's this?
 

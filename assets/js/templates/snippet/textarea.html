@@ -2,6 +2,6 @@
 <div class="form-group">
   <label class="control-label col-md-4" for ="<%- id %>"><%- label %></label>
   <div class="col-md-7">                     
-    <textarea class="form-control" id="<%- id %>" name="<%- id %>" rows="<%- row %>" ><%- textarea %></textarea>
+    <textarea class="form-control" id="<%- id %>" name="<%- id %>" rows="<%- row %>" <% if(required) {%> data-empty="false" <% } %> ><%- textarea %></textarea>
   </div>
 </div>
